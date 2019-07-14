@@ -1,5 +1,5 @@
 # Korways
-Language switching function fix for Korean IME
+Language switching fix for Korean IME
 
 # Always Korean mode
-Intercept the toggle function for built-in kor/eng language switcher
+Intercept the toggle for built-in kor/eng language switcher

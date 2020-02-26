@@ -14,7 +14,7 @@ namespace Korways
             InitializeComponent();
             Thread imeHandler = new Thread(new ThreadStart(GetIME));
             imeHandler.Start();
-            MessageBox.Show("* Service has been started *\nTo stop, just kill process \"" +
+            MessageBox.Show("* Service has been started *\nTo stop, just kill the process \"" +
                 Process.GetCurrentProcess().ProcessName + ".exe\"",
                 "Korways IME Fixer", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
